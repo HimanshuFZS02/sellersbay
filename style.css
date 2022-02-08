@@ -16,13 +16,6 @@ html {
 }
 
 
-/* main body */
-
-body {
-    background: var(--primaryback);
-}
-
-
 /* heading line */
 
 .header {
@@ -55,6 +48,12 @@ body {
 
 .brand-logo {
     height: 100px;
+}
+
+.sellers-bay-text {
+    text-decoration: none;
+    font-size: 20px;
+    bottom: 25px;
 }
 
 .nav-items {
@@ -116,4 +115,39 @@ body {
 .loginbtn {
     background-color: blanchedalmond;
     border: none;
+}
+
+
+/* Second navgition bar */
+
+.navbarsec {
+    display: flex;
+    background-color: aqua;
+    align-self: center;
+    font-size: 25px;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+}
+
+.navsec {
+    align-self: center;
+    left: 50%;
+}
+
+.navsec-list {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.navsec-item a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navsec-item {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
 }
